@@ -1,0 +1,46 @@
+
+/* Styling card components */
+.card{
+  border: 1px solid rgb(146, 145, 145);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1); /* 1st value: horizontal offset, 2nd value: vertical offset, 3rd value: blur radius */
+  padding: 20px; /* space between elements and border */
+  margin : 10px; /* space outside the border */
+  text-align: center;
+  max-width: 250px;
+  display: inline-block; /* in case we have more cards they will atleast flow within our container because normally divs are block level elements */
+}
+
+.card .card-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+
+}
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+/* css styling for button */
+
+/* External css stylesheet : Easy to use for simple projects . But can lead to naming conflicts. */
+
+/*
+.button{ 
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+  */
+
+/* Dedicated css stylesheet specifically for each component */
