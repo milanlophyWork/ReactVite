@@ -7,7 +7,9 @@
 */
 
 // import Card from './card.jsx'
-import Button from './button.jsx'
+// import Button from './Button/button'
+import Student from "./students"
+import Student2 from "./student2"
 
 function App() {// React is all about reusing components. A component is a small section of reusable jsx code. It is HTML like code that can contain javaScript.
 
@@ -21,9 +23,24 @@ function App() {// React is all about reusing components. A component is a small
       <Card/>
       <Card/> */} {/* Card components */}
 
-      <Button/> {/* Styling react components with css : External , Modules , Inline */}
+      {/* <Button/> */} {/* Styling react components with css : External , Modules , Inline */}
+
+      {/* <Student name = "Milan" age = {21}/> 
+      <Student name = "Helan" age = {20}/>
+      <Student name = "Heaven" age = {14} isStudent= {true}/> 
+      <Student/> */} {/* props */}
+ 
+      {/* <Student2 name="Riya" age = "30" isStudent = {true}/> 
+      <Student2/>
+      <Student2 name = "Lara"/> */} {/* Using default props in modern way */}
+
+      {/* Conditional Rendering */}
     </div>
   )
 }
 
 export default App
+// To open simple browser in vs code : Copy localhost url open command palette (ctrl + shift + p) type 'simple browser' then enter and paste the url.
+// To have it side by side press ctrl + \ then drag and drop browser tab to right.
+
+// Conditional rendering allows you to control what gets rendered in your application based on certain conditions (show, hide, or change components)

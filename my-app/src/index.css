@@ -30,7 +30,11 @@
 
 /* css styling for button */
 
-/* External css stylesheet : Easy to use for simple projects . But can lead to naming conflicts. */
+/* External css stylesheet : Great for global styles
+
+style.css or index.css file. It is the general term for any stylesheet file linked externally. Easy to use for simple projects . But can lead to naming conflicts. 
+
+*/
 
 /*
 .button{ 
@@ -43,4 +47,30 @@
 }
   */
 
-/* Dedicated css stylesheet specifically for each component */
+/* 
+  Modules : Dedicated css stylesheet specifically for each component. Preferred for individual components that have their own unique styles.
+  
+  css file created for a specific purpose or page not a shared or general one. It is still external but dedicated to a certain task. 
+  
+  eg: homepage.css for homepage only. styles are applied creating modules. Avoid naming conflicts. Because a unique class is going to be generated 
+  for you via hashing algorithm. [check by inspecting the button]. 
+  
+  modules are convenient if each component has its own unique style. But in modules global styles are not applied easily. 
+  You would have to import them from elsewhere ( create a global css file in index.js or app.js. then import it and use it).
+*/
+
+/*
+  inline css : Good for small components with minimal styling. convenient and easy to understand. It prevents global style conflicts as we are not working with class names. But less 
+  maintainable in large applications.
+*/
+
+/* styling student  */
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+}
+.student p{
+  margin: 0;
+}
