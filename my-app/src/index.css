@@ -74,3 +74,19 @@ style.css or index.css file. It is the general term for any stylesheet file link
 .student p{
   margin: 0;
 }
+.welcome-msg{
+  font-size: 2.5em;
+  background-color: hsl(240, 24%, 48%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 0 5px;
+}
+.login-prompt{
+  font-size: 2.5em;
+  background-color: darksalmon;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 0 5px;
+}
