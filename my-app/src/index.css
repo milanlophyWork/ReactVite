@@ -80,7 +80,7 @@ style.css or index.css file. It is the general term for any stylesheet file link
   color: white;
   padding: 10px;
   border-radius: 5px;
-  margin: 0 0 5px;
+  margin: 0 0 7px;
 }
 .login-prompt{
   font-size: 2.5em;
@@ -88,5 +88,5 @@ style.css or index.css file. It is the general term for any stylesheet file link
   color: white;
   padding: 10px;
   border-radius: 5px;
-  margin: 0 0 5px;
+  margin: 0 0 7px;
 }

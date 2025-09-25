@@ -1,5 +1,5 @@
 
-function Header(){
+function Header(){ // fn name should always start with a capital letter.
     return (
         <header>
             <h1>My website</h1>

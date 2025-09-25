@@ -6,16 +6,22 @@
 
 */
 
-// import Card from './card.jsx'
+// Brocode cls
+
+// import Card from './card.jsx' 
 // import Button from './Button/button'
 // import Student from "./students"
 // import Student2 from "./student2"
-import UserGreeting from "./userGreeting"
+// import UserGreeting from "./userGreeting"
+// import List from "./list"
+import TaskCard from "./taskCard"
+// import reactLogo from "./assets/react.svg"
+
 
 function App() {// React is all about reusing components. A component is a small section of reusable jsx code. It is HTML like code that can contain javaScript.
 
   return( // return can only return one element so for multiple elements wrap them in a div or fragment element =>  <>  </>
-    <div>
+    <div className = "App">
       {/* <Header></Header>
       <Food/>
       <Footer/> */} {/* Fnal components */}
@@ -35,8 +41,19 @@ function App() {// React is all about reusing components. A component is a small
       <Student2/>
       <Student2 name = "Lara"/> */} {/* Using default props in modern way */}
 
-      <UserGreeting isLoggedIn = {true} username = "Milan" /> {/* Conditional Rendering */}
-      <UserGreeting isLoggedIn = {true}/>
+      {/* <UserGreeting isLoggedIn = {true} username = "Milan" /> 
+      <UserGreeting isLoggedIn = {true}/> */} {/* Conditional Rendering */}
+
+      {/* <List/> */} {/* rendering list */}
+
+      {/* <TaskCard title = "React" description = "Welcome to react" img = {reactLogo}>
+        <p>React is an open-source js library used to build user interfaces especially for single page applications (SPAs). It focuses on view layer (The 'V' in MVC - Model View Controller).
+          ie it handles how things look and update in the browser.
+        </p>
+        <button>Learn More</button>  
+      </TaskCard>  */}
+
+
     </div>
   )
 }
