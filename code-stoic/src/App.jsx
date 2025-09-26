@@ -5,7 +5,11 @@ import Hello from './Components/Hello'
 import Card from './Components/Card'
 import ReactLogo from './assets/react.svg'
 import Greet, { Greet2, Greet3, Greet4 } from './Components/Greet'
-import Fruits , {Fruits2} from './Components/Fruits'
+import Fruits , {Fruits2, Fruits3, Fruits4, Fruits5} from './Components/Fruits'
+import ConditionalComp, {ConditionalComp2, ConditionalComp3, ConditionalComp4} from './Components/ConditionalComp'
+import Message from './Components/Message'
+import Counter, {Counter2} from './Components/Counter'
+import Form from './Components/Form'
 
 function App() {
 
@@ -49,7 +53,22 @@ function App() {
 
       {/* <Fruits/> */} {/* Rendering arrays of strings :  ie Mapping through a given array */}
       {/* <Fruits2/> */} {/* Rendering array of objects */}
-      {/* Rendering component itself */}
+      {/* <Fruits3/> */} {/* Rendering component itself */}
+      {/* <ConditionalComp/> */} {/* Conditionally rendering jsx */}
+      {/* <ConditionalComp2/> */} {/* Conditionally rendering components */}
+
+      {/* <ConditionalComp3/> */} {/* Conditional rendering with element variables : Avoids multiple return statements */}
+      {/* <ConditionalComp4/> */} {/* Conditionally rendering with ternary operators : also avoids two return statements */}
+      {/* <Fruits4/> */} {/* Conditionally rendering list items */}
+      {/* <Fruits4/> */} {/* Conditionally rendering list items from FruitComp */}
+      {/* <Fruits5/> */} {/* Conditionally rendering a msg using ternary */}
+      
+      {/* <Message/> */} {/* Event handling in react */}
+      {/* <Counter/> */} {/* state in react : counter task */}
+      {/* <Counter2/> */} {/* creating multiple states in react */}
+
+      <Form/> {/* Handling input fields in react */}
+      {/* Handling multiple inputs in react */}
 
     </div>
   ) 
