@@ -9,7 +9,7 @@ import Fruits , {Fruits2, Fruits3, Fruits4, Fruits5} from './Components/Fruits'
 import ConditionalComp, {ConditionalComp2, ConditionalComp3, ConditionalComp4} from './Components/ConditionalComp'
 import Message from './Components/Message'
 import Counter, {Counter2} from './Components/Counter'
-import Form from './Components/Form'
+import Form, {Form2, Form3} from './Components/Form'
 
 function App() {
 
@@ -67,9 +67,9 @@ function App() {
       {/* <Counter/> */} {/* state in react : counter task */}
       {/* <Counter2/> */} {/* creating multiple states in react */}
 
-      <Form/> {/* Handling input fields in react */}
-      {/* Handling multiple inputs in react */}
-
+      {/* <Form/> */} {/* Handling input fields in react */}
+      {/* <Form2/> */} {/* Handling multiple inputs in react */}
+      <Form3/>{/* Form submissions */}
     </div>
   ) 
 }
