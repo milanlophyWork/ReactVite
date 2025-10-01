@@ -21,7 +21,7 @@ export default function Form(){ // Handling an input field in react
 
 export function Form2(){ // Handling multiple inputs in react
 
-    const [name, setName] = useState({firstName : '', lastName : ''})
+    const [name, setName] = useState({firstName : '', lastName : ''}) // setting initial value to object so that multiple input fields can be handled
 
     /* const a = [1,2,3]
     const b = [...a, 4,5]

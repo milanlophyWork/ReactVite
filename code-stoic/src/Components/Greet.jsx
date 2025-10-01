@@ -2,7 +2,7 @@
 
 function Greet(props){
     console.log(props)
-    // props.name = "Jake"   // !!! Immutability of props : props are immutable. ie the values of props cannot be changed. Because values of props are read-only. They cannot be assigned.
+    // props.name = "Jake"   // !!! Immutability of props : props are immutable. ie the values of props cannot be changed by child component. Because values of props are read-only. They cannot be assigned.
 
     return <h3>{props.greet} {props.name}</h3> // props actually is an obj and obj cannot directly rendered inside a react component. name we passed as prop is a property in props obj.
 }// Regular fns accept parameters and components accept props

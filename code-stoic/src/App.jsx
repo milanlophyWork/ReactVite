@@ -10,6 +10,8 @@ import ConditionalComp, {ConditionalComp2, ConditionalComp3, ConditionalComp4} f
 import Message from './Components/Message'
 import Counter, {Counter2} from './Components/Counter'
 import Form, {Form2, Form3} from './Components/Form'
+import List, { List2, List3, List4, List5, RecipeList, Separator } from './Components/RenderList'
+import RenderList, {Log, Registration, StatesOfUI} from './Components/Week2RenderingListTask'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
     message : "Hi there!",
     seatNumbers : [1, 4, 7]
   }
+
+  const fruits = ['Apple', 'Orange', 'Mango', 'Cherry']
   return (
     <div> {/* Use capitals for starting letter of components to distinguish between html tags and components  */}
 
@@ -69,7 +73,21 @@ function App() {
 
       {/* <Form/> */} {/* Handling input fields in react */}
       {/* <Form2/> */} {/* Handling multiple inputs in react */}
-      <Form3/>{/* Form submissions */}
+      {/* <Form3/> */} {/* Form submissions */}
+
+      {/* <List/> */}
+      {/* <List2/> */}
+      {/* <List3/> */}
+      {/* <List4/> */}
+      {/* <List5/> */}
+      {/* <RecipeList/> */}
+      {/* <Separator/> */}
+
+      {/* <RenderList arr={fruits}/> */}
+      {/* <Log/> */}
+      {/* <Registration/> */}
+      <StatesOfUI/>
+
     </div>
   ) 
 }
